@@ -1,0 +1,4 @@
+Flask>=2.0
+twilio>=8.0
+SQLAlchemy>=1.4
+python-dotenv>=0.20
