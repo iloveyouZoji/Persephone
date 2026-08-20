@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+.env
+.env.*
+.venv/
+venv/
+venv*/
+.Python
+
+# Virtualenv / pipenv / poetry
+pip-wheel-metadata/
+.python-version
+.mypy_cache/
+.pyre/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.nox/
+.pytest_cache/
+
+# Database files (local/dev)
+*.sqlite3
+*.db
+polls.db
+
+# Config / secrets (keep example files in repo, not real secrets)
+config.json
+config.yaml
+config.yaml.*
+secrets.json
+*.key
+*.pem
+
+# Logs
+*.log
+logs/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP / Composer
+vendor/
+composer.lock
+
+# C/C++ build artifacts / binaries
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+read_results
+read_results.exe
+/build/
+cmake_build/
+
+# ngrok
+.ngrok2/
+ngrok.log
+
+# Docker (local overrides)
+docker-compose.override.yml
+*.env.docker
+
+# Misc
+*.bak
+*.swp
+*.swo
